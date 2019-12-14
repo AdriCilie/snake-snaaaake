@@ -2,12 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameAssets : MonoBehaviour
-{
+public class GameAssets : MonoBehaviour {
+
     public static GameAssets instance;
 
-    private void Awake()
-    {
+    private void Awake() {
         instance = this;    
     }
 
