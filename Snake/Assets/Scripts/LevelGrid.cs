@@ -31,7 +31,7 @@ public class LevelGrid {
         if (snakeGridPosition == foodGridPosition) {
             Object.Destroy(foodGameObject);
             SpawnFood();
-
+            GameHandler.AddScore();
             return true;
         }
 
